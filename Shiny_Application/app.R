@@ -23,6 +23,7 @@ ui <- fluidPage(shinyUI(
                    href = "https://www.youtube.com/watch?v=HkRnPPUqveI")
           
         ),
+        
         textOutput('res')),
     
         dashboardBody(
