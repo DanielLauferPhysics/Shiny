@@ -330,5 +330,5 @@ server <- shinyServer(function(input, output){
 
 # Run the application 
 
-shinyApp(ui = ui, server = server)
-#deployApp(appDir=getwd())
+#shinyApp(ui = ui, server = server)
+deployApp(appDir=getwd())
